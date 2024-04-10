@@ -1,5 +1,3 @@
-$(".phone").mask("+7(999)999-99-99");
-
 
 $(document).ready(function() {
     $('.menu-toggle').on('click', function() {
