@@ -37,7 +37,7 @@ $(document).ready(function() {
       let form = $("#" + $(this).attr("id"))[0];
       let fd = new FormData(form);
       $.ajax({
-        url: "../php/send-message-to-telegram.php",
+        url: "/wp-content/themes/php/send-message-to-telegram.php",
         type: "POST",
         data: fd,
         processData: false,
